@@ -1,9 +1,9 @@
 :root {
-  --clr-primary-100: hsl(220, 15%, 55%);
+  --clr-primary-100: hsl(212, 45%, 89%);
+  --clr-primary-300: hsl(220, 15%, 55%);
   --clr-primary-400: hsl(218, 44%, 22%);
 
   --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-300: hsl(212, 45%, 89%);
   --clr-neutral-900: hsl(0, 0%, 0%);
 
   /* fonts */
@@ -17,6 +17,45 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: var(--ff-primary);
+  line-height: normal;
+  background-color: var(--clr-primary-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+.main {
+  background-color: var(--clr-neutral-100);
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.img {
+  border-radius: 20px;
+}
+.main_heading {
+  color: var(--clr-primary-400);
+  margin: 1em 0;
+}
+.main_text {
+  color: var(--clr-primary-300);
+  font-size: 14px;
+  margin: 1em 0;
+}
 .attribution {
   margin-top: 1rem;
   font-size: 12px;
