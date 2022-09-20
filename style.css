@@ -36,16 +36,13 @@ body {
 .main {
   background-color: var(--clr-neutral-100);
   padding: 0.8rem;
-  border-radius: 15px;
+  border-radius: 0.938rem;
   text-align: center;
+  max-width: 14.813rem;
 }
-.container {
-  width: 100%;
-  max-width: 235px;
-  margin: 0 auto;
-}
+
 .img {
-  border-radius: 15px;
+  border-radius: 0.938rem;
 }
 .text {
   padding: 0 0.7em;
@@ -53,6 +50,7 @@ body {
 .main_heading {
   color: var(--clr-primary-400);
   margin: 1em 0;
+  font-size: 1em;
 }
 .main_text {
   color: var(--clr-primary-300);
